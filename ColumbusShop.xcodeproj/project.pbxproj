@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B31F10622059044500F4DC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F10612059044500F4DC2F /* AppDelegate.swift */; };
+		B31F10642059044500F4DC2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F10632059044500F4DC2F /* ViewController.swift */; };
+		B31F10672059044500F4DC2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31F10652059044500F4DC2F /* Main.storyboard */; };
+		B31F10692059044500F4DC2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31F10682059044500F4DC2F /* Assets.xcassets */; };
+		B31F106C2059044500F4DC2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31F106A2059044500F4DC2F /* LaunchScreen.storyboard */; };
+		B31F10772059044500F4DC2F /* ColumbusShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F10762059044500F4DC2F /* ColumbusShopTests.swift */; };
+		B31F10822059044500F4DC2F /* ColumbusShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F10812059044500F4DC2F /* ColumbusShopUITests.swift */; };
+		B31F10902059076600F4DC2F /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F108F2059076600F4DC2F /* AboutusViewController.swift */; };
+		B32647AB2059124400F144D0 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32647AA2059124400F144D0 /* CategoryViewController.swift */; };
+		B32647AD205926C100F144D0 /* itemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32647AC205926C100F144D0 /* itemViewController.swift */; };
+		B32647AF20592E7200F144D0 /* itemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32647AE20592E7200F144D0 /* itemTableViewCell.swift */; };
+		B32647B1205930EA00F144D0 /* itemobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32647B0205930EA00F144D0 /* itemobject.swift */; };
+		B32647B3205937AA00F144D0 /* descViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32647B2205937AA00F144D0 /* descViewController.swift */; };
+		B32647BC20593F9100F144D0 /* AppStore@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = B32647B720593F9100F144D0 /* AppStore@1x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B31F10732059044500F4DC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31F10562059044500F4DC2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31F105D2059044500F4DC2F;
+			remoteInfo = ColumbusShop;
+		};
+		B31F107E2059044500F4DC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B31F10562059044500F4DC2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31F105D2059044500F4DC2F;
+			remoteInfo = ColumbusShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B31F105E2059044500F4DC2F /* ColumbusShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColumbusShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31F10612059044500F4DC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B31F10632059044500F4DC2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B31F10662059044500F4DC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B31F10682059044500F4DC2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B31F106B2059044500F4DC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B31F106D2059044500F4DC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31F10722059044500F4DC2F /* ColumbusShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColumbusShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31F10762059044500F4DC2F /* ColumbusShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumbusShopTests.swift; sourceTree = "<group>"; };
+		B31F10782059044500F4DC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31F107D2059044500F4DC2F /* ColumbusShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColumbusShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31F10812059044500F4DC2F /* ColumbusShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumbusShopUITests.swift; sourceTree = "<group>"; };
+		B31F10832059044500F4DC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31F108F2059076600F4DC2F /* AboutusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		B32647AA2059124400F144D0 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		B32647AC205926C100F144D0 /* itemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemViewController.swift; sourceTree = "<group>"; };
+		B32647AE20592E7200F144D0 /* itemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemTableViewCell.swift; sourceTree = "<group>"; };
+		B32647B0205930EA00F144D0 /* itemobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemobject.swift; sourceTree = "<group>"; };
+		B32647B2205937AA00F144D0 /* descViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descViewController.swift; sourceTree = "<group>"; };
+		B32647B720593F9100F144D0 /* AppStore@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppStore@1x.png"; path = "../../../../Desktop/columbusshop/AppStore@1x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B31F105B2059044500F4DC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31F106F2059044500F4DC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31F107A2059044500F4DC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B31F10552059044500F4DC2F = {
+			isa = PBXGroup;
+			children = (
+				B31F10602059044500F4DC2F /* ColumbusShop */,
+				B31F10752059044500F4DC2F /* ColumbusShopTests */,
+				B31F10802059044500F4DC2F /* ColumbusShopUITests */,
+				B31F105F2059044500F4DC2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B31F105F2059044500F4DC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B31F105E2059044500F4DC2F /* ColumbusShop.app */,
+				B31F10722059044500F4DC2F /* ColumbusShopTests.xctest */,
+				B31F107D2059044500F4DC2F /* ColumbusShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B31F10602059044500F4DC2F /* ColumbusShop */ = {
+			isa = PBXGroup;
+			children = (
+				B31F10612059044500F4DC2F /* AppDelegate.swift */,
+				B31F10632059044500F4DC2F /* ViewController.swift */,
+				B31F10652059044500F4DC2F /* Main.storyboard */,
+				B32647B2205937AA00F144D0 /* descViewController.swift */,
+				B32647B0205930EA00F144D0 /* itemobject.swift */,
+				B32647AE20592E7200F144D0 /* itemTableViewCell.swift */,
+				B32647AC205926C100F144D0 /* itemViewController.swift */,
+				B32647AA2059124400F144D0 /* CategoryViewController.swift */,
+				B32647B720593F9100F144D0 /* AppStore@1x.png */,
+				B31F10682059044500F4DC2F /* Assets.xcassets */,
+				B31F106A2059044500F4DC2F /* LaunchScreen.storyboard */,
+				B31F106D2059044500F4DC2F /* Info.plist */,
+				B31F108F2059076600F4DC2F /* AboutusViewController.swift */,
+			);
+			path = ColumbusShop;
+			sourceTree = "<group>";
+		};
+		B31F10752059044500F4DC2F /* ColumbusShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				B31F10762059044500F4DC2F /* ColumbusShopTests.swift */,
+				B31F10782059044500F4DC2F /* Info.plist */,
+			);
+			path = ColumbusShopTests;
+			sourceTree = "<group>";
+		};
+		B31F10802059044500F4DC2F /* ColumbusShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B31F10812059044500F4DC2F /* ColumbusShopUITests.swift */,
+				B31F10832059044500F4DC2F /* Info.plist */,
+			);
+			path = ColumbusShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B31F105D2059044500F4DC2F /* ColumbusShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31F10862059044500F4DC2F /* Build configuration list for PBXNativeTarget "ColumbusShop" */;
+			buildPhases = (
+				B31F105A2059044500F4DC2F /* Sources */,
+				B31F105B2059044500F4DC2F /* Frameworks */,
+				B31F105C2059044500F4DC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColumbusShop;
+			productName = ColumbusShop;
+			productReference = B31F105E2059044500F4DC2F /* ColumbusShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B31F10712059044500F4DC2F /* ColumbusShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31F10892059044500F4DC2F /* Build configuration list for PBXNativeTarget "ColumbusShopTests" */;
+			buildPhases = (
+				B31F106E2059044500F4DC2F /* Sources */,
+				B31F106F2059044500F4DC2F /* Frameworks */,
+				B31F10702059044500F4DC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31F10742059044500F4DC2F /* PBXTargetDependency */,
+			);
+			name = ColumbusShopTests;
+			productName = ColumbusShopTests;
+			productReference = B31F10722059044500F4DC2F /* ColumbusShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B31F107C2059044500F4DC2F /* ColumbusShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B31F108C2059044500F4DC2F /* Build configuration list for PBXNativeTarget "ColumbusShopUITests" */;
+			buildPhases = (
+				B31F10792059044500F4DC2F /* Sources */,
+				B31F107A2059044500F4DC2F /* Frameworks */,
+				B31F107B2059044500F4DC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B31F107F2059044500F4DC2F /* PBXTargetDependency */,
+			);
+			name = ColumbusShopUITests;
+			productName = ColumbusShopUITests;
+			productReference = B31F107D2059044500F4DC2F /* ColumbusShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B31F10562059044500F4DC2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Columbus;
+				TargetAttributes = {
+					B31F105D2059044500F4DC2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B31F10712059044500F4DC2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B31F105D2059044500F4DC2F;
+					};
+					B31F107C2059044500F4DC2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B31F105D2059044500F4DC2F;
+					};
+				};
+			};
+			buildConfigurationList = B31F10592059044500F4DC2F /* Build configuration list for PBXProject "ColumbusShop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B31F10552059044500F4DC2F;
+			productRefGroup = B31F105F2059044500F4DC2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B31F105D2059044500F4DC2F /* ColumbusShop */,
+				B31F10712059044500F4DC2F /* ColumbusShopTests */,
+				B31F107C2059044500F4DC2F /* ColumbusShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B31F105C2059044500F4DC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31F106C2059044500F4DC2F /* LaunchScreen.storyboard in Resources */,
+				B31F10692059044500F4DC2F /* Assets.xcassets in Resources */,
+				B31F10672059044500F4DC2F /* Main.storyboard in Resources */,
+				B32647BC20593F9100F144D0 /* AppStore@1x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31F10702059044500F4DC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31F107B2059044500F4DC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B31F105A2059044500F4DC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32647AF20592E7200F144D0 /* itemTableViewCell.swift in Sources */,
+				B32647B3205937AA00F144D0 /* descViewController.swift in Sources */,
+				B32647AD205926C100F144D0 /* itemViewController.swift in Sources */,
+				B32647AB2059124400F144D0 /* CategoryViewController.swift in Sources */,
+				B31F10902059076600F4DC2F /* AboutusViewController.swift in Sources */,
+				B31F10642059044500F4DC2F /* ViewController.swift in Sources */,
+				B31F10622059044500F4DC2F /* AppDelegate.swift in Sources */,
+				B32647B1205930EA00F144D0 /* itemobject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31F106E2059044500F4DC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31F10772059044500F4DC2F /* ColumbusShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31F10792059044500F4DC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31F10822059044500F4DC2F /* ColumbusShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B31F10742059044500F4DC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31F105D2059044500F4DC2F /* ColumbusShop */;
+			targetProxy = B31F10732059044500F4DC2F /* PBXContainerItemProxy */;
+		};
+		B31F107F2059044500F4DC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B31F105D2059044500F4DC2F /* ColumbusShop */;
+			targetProxy = B31F107E2059044500F4DC2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B31F10652059044500F4DC2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31F10662059044500F4DC2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B31F106A2059044500F4DC2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B31F106B2059044500F4DC2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B31F10842059044500F4DC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B31F10852059044500F4DC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B31F10872059044500F4DC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColumbusShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.columbusShop.columbus.ColumbusShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B31F10882059044500F4DC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColumbusShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.columbusShop.columbus.ColumbusShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B31F108A2059044500F4DC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColumbusShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.columbusShop.columbus.ColumbusShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColumbusShop.app/ColumbusShop";
+			};
+			name = Debug;
+		};
+		B31F108B2059044500F4DC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColumbusShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.columbusShop.columbus.ColumbusShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColumbusShop.app/ColumbusShop";
+			};
+			name = Release;
+		};
+		B31F108D2059044500F4DC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColumbusShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.columbusShop.columbus.ColumbusShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColumbusShop;
+			};
+			name = Debug;
+		};
+		B31F108E2059044500F4DC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColumbusShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.columbusShop.columbus.ColumbusShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColumbusShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B31F10592059044500F4DC2F /* Build configuration list for PBXProject "ColumbusShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31F10842059044500F4DC2F /* Debug */,
+				B31F10852059044500F4DC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31F10862059044500F4DC2F /* Build configuration list for PBXNativeTarget "ColumbusShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31F10872059044500F4DC2F /* Debug */,
+				B31F10882059044500F4DC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31F10892059044500F4DC2F /* Build configuration list for PBXNativeTarget "ColumbusShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31F108A2059044500F4DC2F /* Debug */,
+				B31F108B2059044500F4DC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B31F108C2059044500F4DC2F /* Build configuration list for PBXNativeTarget "ColumbusShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31F108D2059044500F4DC2F /* Debug */,
+				B31F108E2059044500F4DC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B31F10562059044500F4DC2F /* Project object */;
+}
